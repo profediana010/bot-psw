@@ -18,7 +18,7 @@ async def hello(ctx):
 
 
 @bot.command()
-async def adios(ctx):
+async def bye(ctx):
     await ctx.send(f'Fue un placer conversar con tigo :)')
 
 @bot.command()
